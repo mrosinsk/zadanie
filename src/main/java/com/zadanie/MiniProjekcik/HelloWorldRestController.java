@@ -9,7 +9,7 @@ public class HelloWorldRestController {
     @GetMapping("/api/hello")
     public Greeting hello(){
     Greeting greeting = new Greeting();
-    greeting.setMsg("hello world!");
+    greeting.setMsg("hello world!!!");
     return greeting;
     }
 }
